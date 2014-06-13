@@ -17,9 +17,4 @@ describe 'translate to pig latin' do
 	it 'translates words with y in middle of string' do
 		expect(PigLatin.translate_to_pig_latin("rhythm")).to eq("ythmrhay")
 	end
-
-
-
-
-
 end

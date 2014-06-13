@@ -3,7 +3,7 @@ module PigLatin
 	def self.translate_to_pig_latin(word)
 		word = word.downcase
 
-		# If word begins with vowel, add 'ay'
+		# If word begins with vowel, add 'way'
 		if word =~ /\A[aeiou]/ && word !~ /\A[y]/
 			new_word = word + "way"
 		end
