@@ -1,6 +1,6 @@
 # PigLatin
 
-TODO: Write a gem description
+Converts any word into Pig Latin text.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Use this wherever you want.
 
 ## Contributing
 
