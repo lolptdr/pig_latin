@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["charnwoot@gmail.com"]
   spec.summary       = %q{Convert words into Pig Latin}
   spec.description   = %q{Convert words into Pig Latin}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/lolptdr/pig_latin"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
