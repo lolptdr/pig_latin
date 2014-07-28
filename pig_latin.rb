@@ -6,17 +6,15 @@ module PigLatin
 		# If word begins with vowel, add 'way'
 		if word =~ /\A[aeiou]/ && word !~ /\A[y]/
 			new_word = word + "way"
-		end
 
 		# If word begins with 'y', move 'y' to end and add 'ay'
-		if word =~ /\A[y]/
+		elsif word =~ /\A[y]/
 			word += word.slice!(0)
 			new_word = word + "ay"
-		end
 
 		# If word begins with consonant or with 'y' as vowel, move the consonant
 		# cluster to end and add 'ay'
-		if word !~ /\A[aeiouy]/
+		elsif word !~ /\A[aeiouy]/
 			while word !~ /\A[aeiouy]/
 				word += word.slice!(0)
 			end
