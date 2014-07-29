@@ -20,6 +20,10 @@ Or install it yourself as:
 
 Use this wherever you want.
 
+## Sample TerminalClient
+
+Go to "run" folder and run "bundle exec ruby pig_client.rb".
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/pig_latin/fork )
