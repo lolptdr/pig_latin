@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'pry-byebug' # for debugging
+gem 'rspec'
+gem 'pig_latin', :git => 'https://github.com/lolptdr/pig_latin'

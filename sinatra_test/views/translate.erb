@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pig Latin Translator</title>
+  <style>
+    body {
+      background: url('../img/Berry-cute-piglet.jpg') no-repeat; 
+      background-size: cover; 
+    }
+  </style>
+</head>
+<body>
+  <h1>Give me a word to translate</h1>
+  <form method="post" action="/">
+    <div>
+      <label for="word">Word</label>
+      <input type="text" id="word" name="word">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+  
+  <% if @new %>
+    <strong>Translated word: </strong>
+    <p><%= @new %></p>
+  <% end %>
+
+</body>
+</html>
