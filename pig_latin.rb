@@ -1,6 +1,10 @@
+require "pig_latin/version"
+
 module PigLatin
 
 	def self.translate_to_pig_latin(word)
+
+		return "That's not a word." if !word.is_a? String
 		word = word.downcase
 
 		# If word begins with vowel, add 'way'
