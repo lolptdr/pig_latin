@@ -1,2 +1,0 @@
-require 'pig_latin'
-
