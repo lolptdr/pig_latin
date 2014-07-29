@@ -1,8 +1,6 @@
-require "pig_latin/version"
-
 module PigLatin
 
-	def self.translate_to_pig_latin(word)
+	def self.translate(word)
 
 		return "That's not a word." if !word.is_a? String
 		word = word.downcase
@@ -28,5 +26,14 @@ module PigLatin
 
 		return new_word
 	end
+
+
+	def self.translate_sentence(sentence)
+    words = sentence.downcase.split(' ')
+
+    words.map do |word|
+      translate(word)
+    end.join(' ')
+  end
 
 end
